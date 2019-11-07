@@ -1,0 +1,31 @@
+ /* para que funcione d 1 a 600px */
+@media (max-width: 600px ) {
+
+.products{
+  /* forma horizontal */
+  display: inherit;
+  height: auto;
+}
+
+.product{
+  margin-top:auto;
+}
+.main_section{
+  padding: 4%;
+}
+ /* llamar dos clases cn el mismo estilo(.main,.product) */
+}
+
+@media (max-width: 1000px) {
+/* ingresar de un div a otro div */
+.product .content{
+  background-color: yellow;
+}
+}
+@media (max-width: 460px) {
+
+/* cuando es una img o etiqueta */
+.img_content img{
+  width: 100%;
+}
+}
